@@ -12,6 +12,7 @@ import * as moment from 'moment';
 export class ListReposComponent implements OnInit {
 
   // Varaibles omponent
+  items = Array.from({length: 100000}).map((_, i) => `Item #${i}`);
   repos: Repository[] = [];
   page = 1;
   dateLastRepo: string;

@@ -7,6 +7,14 @@
   margin: auto;
 }
 
+.gemo-card {
+  height: auto;
+}
+
+.gemo-viewport {
+  height: 100vh;
+}
+
 .mt-3 {
   margin-top: 15px;
 }
@@ -18,4 +26,14 @@
 .mat-spinner {
   margin-left: auto;
   margin-right: auto;
+}
+
+.example-viewport {
+  min-height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.example-item {
+  height: auto;
 }
